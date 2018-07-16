@@ -15,11 +15,13 @@ namespace TestApp
         public Form1()
         {
             InitializeComponent();
+            label1.Text = "Enter text here...";
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "You clicked me!!!!!!!!!!!";
+
         }
     }
 }
